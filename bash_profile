@@ -1,4 +1,4 @@
- eval "$(rbenv init -)"
+eval "$(rbenv init -)"
 
 source ~/.bash_aliases
 
@@ -109,5 +109,4 @@ export PROMPT_COMMAND='history -a'
 
 export JRUBY_OPTS='--1.9'
 
-# colorful ls
-eval $(/usr/local/bin/gdircolors) ; alias ls="/usr/local/bin/gls --color=auto"
+[ -z "$TMUX" ] && export TERM=xterm-256color
