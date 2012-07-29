@@ -110,3 +110,5 @@ export PROMPT_COMMAND='history -a'
 export JRUBY_OPTS='--1.9'
 
 [ -z "$TMUX" ] && export TERM=xterm-256color
+
+export EDITOR=vim
